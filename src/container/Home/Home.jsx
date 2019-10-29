@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import YoutubeComp from '../../component/YoutubeComp/YouTubeComp';
-import AutoScroll from '../../component/AutoScroll';
-
+import Product from '../Product/Product';
 class Home extends Component {
   render() {
     return (
@@ -22,8 +21,10 @@ class Home extends Component {
           time="2.00" 
           title="PopCash Developer - Bagian 1"
           desc="5,6K ditonton, 3 minggu yang lalu" /> 
-        <YoutubeComp /><p/>
-        <AutoScroll/>
+        <YoutubeComp />
+        <p>Counter</p>
+        <hr/>
+        <Product />
       </div>
       
     );
